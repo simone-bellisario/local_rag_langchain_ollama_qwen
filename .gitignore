@@ -1,0 +1,25 @@
+# Vector store generated at runtime
+chroma_db/
+
+# Source document (link to it in the README instead)
+*.pdf
+
+# Secrets / API keys
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# RAGAS / evaluation outputs, if you save any
+*.csv
+
+# OS / editor clutter
+.DS_Store
+.vscode/
+.idea/
